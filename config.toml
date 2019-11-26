@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Mildly significant"
 theme = "hugo-xmin"
 googleAnalytics = "hrspxmchn"
-disqusShortname = "@haruspexmachine"
+disqusShortname = "haruspexmachine"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
