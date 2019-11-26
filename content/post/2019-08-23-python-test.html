@@ -1,0 +1,33 @@
+---
+title: "python test"
+date: 2014-07-23
+output: html_document
+---
+
+
+
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<pre class="python"><code>import matplotlib.pyplot as plt
+import numpy as np
+
+t = np.arange(0.0, 2.0, 0.01)
+s = 1 + np.sin(2*np.pi*t)
+plt.plot(t, s)
+
+plt.xlabel(&#39;time (s)&#39;)
+plt.ylabel(&#39;voltage (mV)&#39;)
+plt.title(&#39;About as simple as it gets, folks&#39;)
+plt.grid(True)
+plt.savefig(&quot;test.png&quot;)
+plt.show()</code></pre>
+<p><img src="/post/2019-08-23-python-test_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="/post/2019-08-23-python-test_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+</div>
