@@ -2,8 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Mildly significant"
 theme = "hugo-xmin"
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "hrspxmchn"
+disqusShortname = "@haruspexmachine"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
