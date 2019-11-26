@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hrspxmchn"
+title = "Mildly significant"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
@@ -16,22 +16,26 @@ footnotereturnlinkcontents = "↩"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Blog"
+    url = "/Post/"
     weight = 2
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    name = "About"
+    url = "/about/"
     weight = 3
 [[menu.main]]
-    name =  "Tags"
-    url = "/tags/"
+    name = "Blogroll"
+    url = "/blogroll/"
     weight = 4
+[[menu.main]]
+    name = "Textbooks"
+    url = "/textbooks/"
+    weight = 5
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
-    weight = 5
+    weight = 6
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "[Github](https://github.com/haruspex-machine) | [Twitter](https://twitter.com/xieyihui)"
+    footer = "[Github](https://github.com/haruspex-machine) | [Twitter](https://twitter.com/HaruspexMachine)"
